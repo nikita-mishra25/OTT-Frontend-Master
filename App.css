@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary: #db0000;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #0f1014;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+
+header {
+  display: flex;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 80%
+  );
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+header .navLeft .navMenu a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header .navLeft {
+  display: flex;
+  align-items: end;
+  gap: 50px;
+}
+
+header .navMenu {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.navRight .navMenu a.loginBtn {
+  border: 1px solid #ffc045;
+  background: #ffc045;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 500;
+  padding: 7px 20px;
+  min-width: 110px;
+  transition: 0.3s ease all;
+  text-align: center;
+  cursor: pointer;
+}
+.navRight .navMenu a.loginBtn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.navRight .navMenu select {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navRight .navMenu select option {
+  color: #000;
+}
+
+.searchFleald {
+  display: flex;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ffc045;
+  outline: none;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  width: 400px;
+}
+
+.searchFleald button {
+  border: 1px solid #ffc045;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc045;
+  color: #000;
+  height: 100%;
+  transition: 0.3s ease all;
+  width: 100px;
+}
+.searchFleald input {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+header .mainlogo img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+.heroSection {
+  height: 85vh;
+}
+
+.heroSection .swiperSection {
+  height: 100%;
+}
+
+.heroBanner1 {
+  height: 100%;
+}
+
+.bannerOverlay {
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 8%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 100%;
+  display: flex;
+  padding: 0 0 75px 75px;
+  align-items: end;
+}
+
+.heroBanner1 {
+  background-image: url("./images/banner/banner1.png");
+}
+
+.bannerContainer {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bannerHead span.lable {
+  color: #1492ff;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.bannerDescription {
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #ffffffd6;
+}
+
+.bannerHead .keypoint span::after {
+  content: "•";
+  padding: 0 13px;
+  color: #fff;
+}
+
+.bannerHead .keypoint span:last-child:after {
+  display: none;
+}
+
+.bannerHead .keypoint span:first-child::after {
+  display: none;
+}
+
+.bannerHead .keypoint span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bannerHead .keypoint .keypointLable {
+  background-color: #454547;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.bannerHead .keypoint {
+  display: flex;
+  margin: 15px 0 0 0;
+  align-items: center;
+}
+
+.bannerHead img {
+  width: 375px;
+  height: auto;
+  object-fit: contain;
+}
+
+.bannerHead {
+  display: flex;
+  flex-direction: column;
+}
+
+.keypoint2 {
+  display: flex;
+  align-items: center;
+}
+
+.keypoint2 span {
+  color: #fff;
+  font-weight: 600;
+}
+
+.keypoint2 span::after {
+  padding: 0 13px;
+  content: "|";
+}
+
+.keypoint2 span:last-child::after {
+  display: none;
+}
+
+.bannerHead .keypoint .keypointLable::after {
+  display: none;
+}
+
+.showLanguages {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.showLanguages .languageCard input[type="radio"] {
+  display: none;
+}
+
+.showLanguages .languageCard label {
+  font-size: 15px;
+  color: #fff9;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.showLanguages .languageCard input[type="radio"]:checked + label {
+  background-color: #232124 !important;
+  color: #fff;
+}
+
+.watchDiv {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.watchDiv button.watchBtn span.material-symbols-outlined {
+  color: #000;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.watchDiv button {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.3s ease all;
+  border: 1px solid;
+  padding: 13px 13px;
+  justify-content: center;
+}
+
+.watchDiv button.watchBtn:hover span.material-symbols-outlined {
+  color: #fff;
+}
+
+.watchDiv button.watchBtn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.watchDiv button.watchBtn {
+  border: 1px solid #ffc045;
+  background-color: #ffc045;
+  color: #000;
+  gap: 5px;
+  width: 60%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.watchDiv button.addWishlist {
+  border: 1px solid #2f2f32;
+  background-color: #2f2f32;
+}
+
+.watchDiv button.addWishlist span {
+  color: #fff;
+}
+
+.movieListContainer {
+  display: flex;
+  align-items: center;
+}
+
+.movieListContainer .movieCard {
+  width: 100%;
+}
+
+.commonContainer {
+  padding: 0 50px;
+  margin: 50px 0;
+}
+
+.movieListContainer .movieCard img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.commonContainer {
+  padding: 0 50px;
+  margin: 50px 0;
+}
+
+.commonOverlayLeft {
+  background: linear-gradient(
+    260deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(15, 16, 20, 1) 88%
+  );
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(15, 16, 20, 1) 50%
+  );
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  width: 200px;
+  height: 290px;
+}
+
+.commonOverlayRight {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(15, 16, 20, 1) 88%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(15, 16, 20, 1) 70%
+  );
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  width: 200px;
+  height: 290px;
+}
+
+.pageHeading {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  z-index: 9;
+}
+
+.continueImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.continueImg {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.ContinueList h6 {
+  color: #e1e6f0;
+  font-weight: 600;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  margin-bottom: 0;
+  text-wrap: wrap;
+  margin-top: 13px;
+}
+
+.ContinueList span {
+  font-weight: 600;
+  color: #8f98b2;
+  font-size: 15px;
+}
+
+.posterDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Login Form CSS */
+

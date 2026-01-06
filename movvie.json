@@ -1,0 +1,45 @@
+{
+    "movie":[
+      {
+        "id": 1,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2034/1748457522034-v"
+      },
+      {
+        "id": 2,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4799/1748416264799-v"
+      },
+      {
+        "id": 3,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1600/1748260781600-v"
+      },
+      {
+        "id": 4,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3213/1711909083213-v"
+      },
+      {
+        "id": 5,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/9623/1747301119623-v"
+      },
+      {
+        "id": 6,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7011/1657011-v-d6e556230ba6"
+      },
+      {
+        "id": 7,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1541/1734513351541-v"
+      },
+      {
+        "id": 8,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2764/1721653312764-v"
+      },
+      {
+        "id": 9,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/5171/875171-v"
+      },
+      {
+        "id": 9,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8693/1739493798693-v"
+      }
+
+    ]
+}

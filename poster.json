@@ -1,0 +1,17 @@
+{
+    "movie":[
+      {
+        "id": 1,
+        "image": "https://developmentalphawizz.com/custom-image/poster3.jpg",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 2,
+        "image": "https://developmentalphawizz.com/custom-image/poster3.jpg",
+        "title": "Free Guy",
+        "remain": "29m left"
+      }
+
+    ]
+}

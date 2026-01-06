@@ -1,0 +1,65 @@
+{
+    "movie":[
+      {
+        "id": 1,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8803/1068803-h-0700ddedf2e6",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 2,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4629/674629-h",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 3,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6498/1734436416498-h",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 4,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/8687/1078687-h-029e9d313239",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 5,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4846/674846-h",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 6,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4409/674409-h",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 7,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4516/674516-h",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 8,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4540/674540-h",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 9,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1517/1161517-h-c376fd164ba2",
+        "title": "Free Guy",
+        "remain": "29m left"
+      },
+      {
+        "id": 9,
+        "image": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7472/1557472-h-0c924f0cfa6c",
+        "title": "Free Guy",
+        "remain": "29m left"
+      }
+
+    ]
+}
